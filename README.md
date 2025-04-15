@@ -1,50 +1,58 @@
-SuperMercado Express - Projeto Frontend
-Descrição
-Este é um projeto frontend para um supermercado fictício, desenvolvido como parte de uma prova para o cargo de Programador Desenvolvedor Front-End. O site inclui múltiplas páginas com design responsivo e implementa diversas funcionalidades interativas.
-Tecnologias Utilizadas
 
-HTML5
-CSS3
-JavaScript Vanilla (ES6+)
-Font Awesome (via CDN)
+ 🛒 SuperMercado Express – Projeto Frontend
 
-Estrutura do Projeto
+📄 Descricao
+**SuperMercado Express** e um projeto de frontend para um supermercado ficticio, desenvolvido como parte de uma avaliacao para a vaga de **Programador Desenvolvedor Front-End**.
+
+O projeto simula um site completo com **design moderno, responsivo** e varias **funcionalidades interativas**, otimizadas para a melhor experiencia do usuario.
+
+ 🚀 Tecnologias Utilizadas
+- ✅ **HTML5** – Estrutura semantica moderna
+- ✅ **CSS3** – Estilos responsivos com boas praticas
+- ✅ **JavaScript (ES6+)** – Funcionalidades interativas sem frameworks
+- ✅ **Font Awesome** – Ícones via CDN para melhor visual
+
+ 🧩 Estrutura do Projeto
+
+```
 supermercado-express/
-│
-├── index.html                # Página inicial com produtos em destaque
-├── produtos.html             # Página de listagem de produtos
-├── contato.html              # Página de contato com formulário
+├── index.html            # Pagina inicial com banner e destaques
+├── produtos.html         # Pagina com listagem e filtros de produtos
+├── contato.html          # Pagina com formulario e informacoes de contato
 │
 ├── css/
-│   └── style.css             # Estilos para todas as páginas
+│   └── style.css         # Estilos globais e responsivos
 │
 └── js/
-    ├── script.js             # JavaScript comum (usado em todas as páginas)
-    ├── produtos.js           # JavaScript para a página de produtos
-    └── contato.js            # JavaScript para a página de contato
-Funcionalidades
-Gerais
+    ├── script.js         # Scripts gerais (menu, scroll, etc.)
+    ├── produtos.js       # Scripts para filtros e ordenacao de produtos
+    └── contato.js        # Scripts para validacao de formulario
+```
 
-Design Responsivo: Layout adaptável para dispositivos móveis, tablets e desktops
-Menu de Navegação: Menu responsivo com toggle para dispositivos móveis
-Botão "Voltar ao Topo": Aparece automaticamente quando o usuário rola para baixo
+🛠️ Funcionalidades
 
-Página Inicial
+ 🌐 Gerais
+- ✅ **Design 100% Responsivo** para desktop, tablet e mobile
+- ✅ **Menu de navegacao mobile-friendly** com botao toggle
+- ✅ **Botao “Voltar ao Topo”** animado, aparece ao rolar a pagina
 
-Banner principal animado
-Seção de produtos em destaque com 3 produtos
-Seção de informações com cards explicativos
+ 🏠 Pagina Inicial
+- 🎯 **Banner principal com imagem de impacto**
+- 🛍️ **Produtos em destaque** (3 cards com imagem, descricao e preco)
+- 💬 **Secao de informacoes** com cards explicativos sobre vantagens do mercado
 
-Página de Produtos
+📦 Pagina de Produtos
+- 📋 **Listagem de produtos** com:
+  - Imagem
+  - Nome
+  - Descricao
+  - Preco
+- 🔎 **Filtros por categoria** (Hortifruti, Carnes, Bebidas, etc.)
+- 🔃 **Ordenacao por nome e preco**
+- 🛒 **Botao “Comprar”** para cada item
 
-Listagem de produtos com imagem, nome, descrição e preço
-Filtro por categorias (Hortifruti, Carnes, Bebidas, etc.)
-Ordenação por preço (menor/maior) e nome (A-Z/Z-A)
-Botão "Comprar" para cada produto
-
-Página de Contato
-
-Formulário completo com validação de campos
-Máscara para entrada de telefone
-Feedback visual ao enviar o formulário
-Informações de contato e localização
+ 📞 Pagina de Contato
+- 📝 **Formulario com validacao completa**
+- 📱 **Mascara para telefone** no formato correto
+- ✅ **Feedback visual** apos envio (sucesso/erro)
+- 📍 **Informacoes de contato e localizacao** visiveis e organizadas
